@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background: #ffffff;
+}
+
+/* Container */
+.pay-container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 40px 20px 80px;
+}
+
+/* Title */
+.pay-container h1 {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+/* Fine Card */
+.fine-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #e6e6e6;
+    border-radius: 8px;
+    padding: 24px;
+    margin-bottom: 30px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.12);
+}
+
+.fine-left h3 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+.amount {
+    font-size: 14px;
+    color: #6c7aa1;
+}
+
+/* Illustration */
+.fine-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fine-right img{
+ width: 260px;
+    height: 120px;
+   
+    border-radius: 8px;
+}
+/* Section */
+.section-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+/* Payment Methods */
+.payment-methods {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    margin-bottom: 30px;
+}
+.method {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 14px 16px;
+    border: 1px solid #dcdcdc;
+    border-radius: 6px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.12);
+    cursor: pointer;
+}
+
+.method input {
+    accent-color: #F59B0C;
+}
+
+/* Action */
+.pay-action {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 14px;
+}
+
+/* Button */
+.pay-btn {
+    background: #F59B0C;
+    color: #ffffff;
+    border: none;
+    padding: 10px 22px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.pay-btn:hover {
+    background: #F6A308;
+}
+
+/* Terms */
+.terms {
+    font-size: 12px;
+    color: #6c7aa1;
+    text-align: center;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+    .fine-card {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .pay-action {
+        justify-content: center;
+    }
+}

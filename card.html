@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Books World</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Inter Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="card.css">
+</head>
+<body>
+
+<header class="navbar">
+    <div class="logo">
+        <i class="fa-solid fa-layer-group"></i><span>Books World</span>
+    </div>
+
+    <nav class="nav-links">
+        <a href="home.html">Home</a>
+        <a href="book.html">Books</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="login.html" class="login-btn">Login</a>
+    </nav>
+</header>
+
+<div class="wrapper">
+
+    <h2>Card Payment</h2>
+
+    <!-- CARD IMAGE -->
+    <div class="card-banner">
+        
+        <img src="images/14527c60bbed3d96b707fadcf9ffadc69868189a.png">
+    </div>
+
+    <div class="content">
+
+        <!-- LEFT FORM -->
+        <div class="form">
+            <label>Card Number</label>
+            <input type="text" placeholder="1234 5678 9012 3456">
+
+            <label>Name on Card</label>
+            <input type="text" placeholder="John Doe">
+
+            <div class="small-row">
+                <div style="flex:1;">
+                    <label>Expiry Date (MM/YY)</label>
+                    <input type="text" placeholder="MM/YY">
+                </div>
+
+                <div style="flex:1;">
+                    <label>CVV</label>
+                    <input type="password" placeholder="***">
+                </div>
+            </div>
+
+            <div class="note">
+                Your card details are encrypted and secure.
+            </div>
+        </div>
+
+        <!-- RIGHT SUMMARY -->
+        <div class="summary">
+            <div class="summary-row">
+                <span>Fine Amount</span>
+                <span>$15.00</span>
+            </div>
+            <div class="summary-row">
+                <span>Service Fee</span>
+                <span>$0.00</span>
+            </div>
+            <div class="summary-row total">
+                <span>Total Amount</span>
+                <span>$15.00</span>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- PAY BUTTON -->
+    <button class="pay-btn" onclick="location.href='paymentsuccess.html'">
+        Pay Now
+    </button>
+
+</div>
+
+
+
+
+
+<!--Footer-->
+<footer class="footer">
+  <div class="footer-wrap">
+
+    <!-- Brand & Links -->
+    <div class="footer-col">
+      <div class="footer-brand">
+        <i class="fa-solid fa-layer-group"></i>
+        <span>Books World</span>
+      </div>
+
+      <ul class="footer-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Books</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- Policies -->
+    <div class="footer-col">
+      <ul class="footer-links">
+        <li><a href="#">Terms of Service</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </div>
+
+    <!-- Address -->
+    <div class="footer-col">
+      <h4>Address</h4>
+      <p>
+        45, west street, corner<br>
+        3erg floor, chennai-60001
+      </p>
+    </div>
+
+    <!-- Email & Social -->
+    <div class="footer-col">
+      <h4>Email</h4>
+      <p>paygen1234@gmail.com</p>
+
+      <h4 class="social-title">Social</h4>
+      <div class="social-icons">
+        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    © 2024 Academica Library. All rights reserved.
+  </div>
+</footer>
+
+
+
+</body>
+</html>
+

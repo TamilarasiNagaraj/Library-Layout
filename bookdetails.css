@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background: #ffffff;
+}
+
+/* Container */
+.details-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px 20px 80px;
+}
+
+/* Page Title */
+.page-title {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+/* Top Section */
+.book-top {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin-bottom: 50px;
+}
+
+/* Left Info */
+.book-info {
+    max-width: 600px;
+}
+
+.book-info h2 {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 15px;
+    color: #5f6b7a;
+    line-height: 1.6;
+    margin-bottom: 16px;
+}
+
+/* Borrow Button */
+.borrow-btn {
+    background: #f1f3f5;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.15);
+}
+
+/* Book Image */
+.book-cover img {
+    width: 260px;
+    border-radius: 10px;
+    box-shadow: 0 6px 14px rgba(0,0,0,0.25);
+}
+
+/* Section Title */
+.section-title {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+/* Detail Cards */
+.details-card {
+    background: #ffffff;
+    border: 1px solid #dcdcdc;
+    border-radius: 6px;
+    padding: 18px 20px;
+    display: flex;
+    gap: 60px;
+    margin-bottom: 16px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.12);
+}
+
+/* Detail */
+.detail span {
+    font-size: 13px;
+    color: #6c7aa1;
+    font-weight: 500;
+}
+
+.detail p {
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 4px;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+    .book-top {
+        flex-direction: column;
+    }
+
+    .book-cover img {
+        width: 220px;
+    }
+
+    .details-card {
+        flex-direction: column;
+        gap: 16px;
+    }
+}
+/* Description Section */
+.description-box {
+    max-width: 1000px;
+    margin-bottom: 60px;
+}
+
+.description-box p {
+    font-size: 15px;
+    color: #444;
+    line-height: 1.8;
+    margin-bottom: 14px;
+}

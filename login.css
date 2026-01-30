@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background: #ffffff;
+}
+
+/* Wrapper */
+.login-wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Heading */
+.login-wrapper h1 {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+/* Form */
+.login-form {
+    width: 100%;
+    max-width: 520px;
+}
+
+/* Group */
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 18px;
+}
+
+.form-group label {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+
+/* Input */
+.form-group input {
+    padding: 12px 14px;
+    font-size: 14px;
+    border-radius: 6px;
+    border: 1px solid #e0e0e0;
+    outline: none;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.15);
+}
+
+/* Role buttons */
+.role-select {
+    display: flex;
+    gap: 12px;
+    margin: 10px 0 22px;
+}
+
+.role-btn {
+    padding: 8px 18px;
+    border-radius: 6px;
+    border: 1px solid #d0d0d0;
+    background: #ffffff;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.role-btn.active {
+    border-color: #F59B0C;
+    color: #F59B0C;
+}
+
+/* Login button */
+.login-btn1 {
+    width: 100%;
+    background: #F59B0C;
+    color: #ffffff;
+    border: none;
+    padding: 12px 0;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 6px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.login-btn1:hover {
+    background: #F6A308;
+}
+
+/* Register */
+.register-text {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #5a6c8e;
+}
+
+.register-text a {
+    color: #5a6c8e;
+    font-weight: 500;
+    text-decoration: none;
+}

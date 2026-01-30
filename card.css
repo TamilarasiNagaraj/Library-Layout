@@ -1,0 +1,85 @@
+* WRAPPER */
+.wrapper{
+    max-width:900px;
+    margin:30px auto;
+    padding:20px;
+}
+
+/* TITLE */
+h2{
+    margin-bottom:15px;
+}
+
+
+
+.card-banner img{
+    max-width:300px;
+    margin-left: 400px;
+}
+
+/* CONTENT */
+.content{
+    display:flex;
+    justify-content:space-between;
+    gap:60px;
+}
+
+/* LEFT FORM */
+.form{
+    flex:1;
+}
+
+label{
+    font-size:12px;
+    color:#444;
+}
+
+input{
+    width:100%;
+    padding:8px;
+    margin:6px 0 14px;
+    border:1px solid #ddd;
+    border-radius:4px;
+    font-size:13px;
+}
+
+.small-row{
+    display:flex;
+    gap:20px;
+}
+
+.note{
+    font-size:11px;
+    color:#777;
+    margin-top:5px;
+}
+
+/* RIGHT SUMMARY */
+.summary{
+    width:220px;
+    font-size:13px;
+}
+
+.summary-row{
+    display:flex;
+    justify-content:space-between;
+    margin-bottom:10px;
+    color:#444;
+}
+
+.summary-row.total{
+    font-weight:600;
+}
+
+/* PAY BUTTON */
+.pay-btn{
+    display:block;
+    margin:30px auto 0;
+    background:#f59c1a;
+    color:#fff;
+    border:none;
+    padding:10px 30px;
+    border-radius:6px;
+    font-size:14px;
+    cursor:pointer;
+}
